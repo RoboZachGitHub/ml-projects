@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore virtual environment & output files
+.venv/
+data_local/
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+runs/
+
 # Distribution / packaging
 .Python
 build/
